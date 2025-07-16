@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom font */
+body {
+  font-family: 'Unbounded', sans-serif;
+}
+
+
+
+/* Add this to your CSS file */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* for Internet Explorer 10+ */
+    scrollbar-width: none; /* for Firefox */
+  }
+
+  /* html, body,a {
+    cursor: none;
+  } */
+
+   
+  /* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Background color of the scrollbar track */
+  border-radius: 20px; /* Rounded corners for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #53CBFF; /* Color of the scrollbar handle */
+  border-radius: 20px; /* Rounded corners for the scrollbar thumb */
+}
+
+/* Hide scrollbar arrows in WebKit browsers */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: #66cc00; /* Slightly darker green on hover */
+}
+
+/* Firefox scrollbar customization */
+* {
+  scrollbar-color: #53CBFF black;
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+}
