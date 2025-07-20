@@ -66,7 +66,7 @@ const Lets_Talk = () => {
         {/* Image Section */}
         <div className="rounded-3xl overflow-hidden bg-gray-100">
           <img
-            src="https://img.freepik.com/premium-vector/vector-professional-icon-business-illustration-line-symbol-people-management-career-set-c_1013341-69875.jpg"
+            src="https://img.freepik.com/premium-vector/design-background-professional-business-illustrationles1sortwitherrorsfirstampqueryjapanese_1013341-284088.jpg"
             alt="Thumbs up feedback"
             className="w-full h-full object-cover"
           />
